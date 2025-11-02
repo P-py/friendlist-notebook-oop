@@ -3,8 +3,8 @@
  *
  * Autores:
  * - Pedro Salviano Santos - 236586
- * - Luiz Gustavo Motta Viana
- * - Erick Ferreira Ribeiro
+ * - Luiz Gustavo Motta Viana - 236428
+ * - Erick Ferreira Ribeiro - 237046
  */
 package org.sant.domain.entity;
 
@@ -24,18 +24,11 @@ import java.util.stream.Stream;
  * </p>
  */
 public class Endereco {
-
-    /** Nome da rua ou logradouro. */
     private String rua;
-    /** Número do imóvel. */
     private String numero;
-    /** Complemento do endereço (ex: apartamento, bloco, etc.). */
     private String complemento;
-    /** Cidade do endereço. */
     private String cidade;
-    /** Estado (UF) do endereço. */
     private String estado;
-    /** Código de Endereçamento Postal (CEP). */
     private String cep;
 
     /**
@@ -64,46 +57,26 @@ public class Endereco {
         this.estado = estado;
         this.cep = CEP;
     }
-
-    // ============================ GETTERS E SETTERS ============================
-
-    /** @return a rua do endereço. */
+    /**
+     * Getters e setters para controle de acesso aos atributos.
+     */
     public String getRua() { return this.rua; }
-
-    /** @param rua define a rua do endereço. */
     public void setRua(String rua) { this.rua = rua; }
 
-    /** @return o número do endereço. */
     public String getNumero() { return this.numero; }
-
-    /** @param numero define o número do imóvel. */
     public void setNumero(String numero) { this.numero = numero; }
 
-    /** @return o complemento do endereço. */
     public String getComplemento() { return this.complemento; }
-
-    /** @param complemento define o complemento do endereço. */
     public void setComplemento(String complemento) { this.complemento = complemento; }
 
-    /** @return a cidade do endereço. */
     public String getCidade() { return this.cidade; }
-
-    /** @param cidade define a cidade do endereço. */
     public void setCidade(String cidade) { this.cidade = cidade; }
 
-    /** @return o estado (UF) do endereço. */
     public String getEstado() { return this.estado; }
-
-    /** @param estado define o estado (UF) do endereço. */
     public void setEstado(String estado) { this.estado = estado; }
 
-    /** @return o CEP do endereço. */
     public String getCep() { return this.cep; }
-
-    /** @param cep define o CEP do endereço. */
     public void setCep(String cep) { this.cep = cep; }
-
-    // ============================ MÉTODOS DE NEGÓCIO ============================
 
     /**
      * Retorna uma representação formatada e legível do endereço.

@@ -3,8 +3,8 @@
  *
  * Autores:
  * - Pedro Salviano Santos - 236586
- * - Luiz Gustavo Motta Viana
- * - Erick Ferreira Ribeiro
+ * - Luiz Gustavo Motta Viana - 236428
+ * - Erick Ferreira Ribeiro - 237046
  */
 package org.sant;
 
@@ -289,17 +289,11 @@ public class Agenda {
      * </p>
      */
     private enum MenuOpcao {
-        /** Opção para cadastrar um novo amigo. */
         CADASTRAR(1),
-        /** Opção para buscar um amigo pelo nome. */
         BUSCAR(2),
-        /** Opção para listar aniversariantes do mês. */
         ANIVERSARIANTES(3),
-        /** Opção para listar todos os amigos cadastrados. */
         LISTAR_TODOS(4),
-        /** Opção para sair da aplicação. */
         SAIR(0),
-        /** Valor retornado quando a opção informada é inválida. */
         INVALIDA(-1);
 
         /** Código numérico associado à opção do menu. */

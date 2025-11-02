@@ -3,8 +3,8 @@
  *
  * Autores:
  * - Pedro Salviano Santos - 236586
- * - Luiz Gustavo Motta Viana
- * - Erick Ferreira Ribeiro
+ * - Luiz Gustavo Motta Viana - 236428
+ * - Erick Ferreira Ribeiro - 237046
  */
 package org.sant.service;
 

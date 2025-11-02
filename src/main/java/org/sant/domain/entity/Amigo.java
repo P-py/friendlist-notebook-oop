@@ -3,8 +3,8 @@
  *
  * Autores:
  * - Pedro Salviano Santos - 236586
- * - Luiz Gustavo Motta Viana
- * - Erick Ferreira Ribeiro
+ * - Luiz Gustavo Motta Viana - 236428
+ * - Erick Ferreira Ribeiro - 237046
  */
 package org.sant.domain.entity;
 
@@ -51,6 +51,9 @@ public class Amigo {
         this.dataNascimento = dataNascimento;
     }
 
+    /**
+     * Getters e setters para controle de acesso aos atributos.
+     */
     public String getNome() { return this.nome; }
     public void setNome(String nome) { this.nome = nome; }
 
